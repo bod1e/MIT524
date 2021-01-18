@@ -1,0 +1,164 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+Body {background:black}
+.main_wrapper{
+Width:auto;
+Height:auto;
+Margin:auto;
+Background:black;
+}
+.header_wrapper{
+Width:auto;
+Height:auto;
+
+}
+
+#logo {float:left}
+#banner {float:right}
+
+.menubar{
+Width:auto;
+Height:50px;
+Background:brown;
+Color:black;
+
+}
+
+
+.content_wrapper {
+Width:auto;
+Margin:auto;
+Background:pink;
+}
+
+
+
+#menu{
+Width:auto;
+Height:50px;
+font-weight:bold;
+Float:left;
+line-height:50px;
+Padding:0;
+Margin:0;
+
+}
+
+#menu li{
+List-style:none;
+Display:inline;
+}
+
+#menu a{
+Text-decoration:none;
+Color:white;
+Padding:8px;
+Margin:5px;
+Font-size:18px;
+Font-familty:COMIC SANS MS;
+}
+
+#menu a:hover{color:orange; font-weight:bolder; text-decoration:underline;}     
+#form{float:right; padding-right:8px; line-height:50px;} 
+
+#header{
+Width:auto;
+Height:100px;
+Background:green;
+font-weight:bold;
+text-align:center;
+line-height:100px;
+}
+
+#content_area{
+Width:auto;
+
+Background:blue;
+font-weight:bold;
+text-align:center;
+line-height:500px;
+}
+
+#sidebar{
+Width:200px;
+Height:600px;
+Background:orange;
+Float:right;
+font-weight:bold;
+text-align:center;
+line-height:50px;
+}
+
+#cats {
+text-align: center;
+}
+
+#cats li {
+    list-style: none;
+    margin:5px;
+}
+
+#cats a {
+Text-decoration:none;
+Color:white;
+Padding:8px;
+Margin:5px;
+Font-size:18px;
+Font-familty:COMIC SANS MS;
+}
+
+#cats a:hover {
+    color:black;
+    font-weight: thin;
+    text-decoration: underline;
+}
+
+#products_box{
+Width:780px;
+Text-align:center;
+Margin-left:30px;
+Margin-bottom:10px;
+}
+
+#single_product{float:left; margin-left: 20px; padding:10px;}
+#single_product img {border:2px solid black;}
+#shopping_cart{float:left; width:auto; height:50px; background:black; color:white;}
+
+#footer{
+Width:auto;
+Height:auto;
+Background:black;
+Color:white;
+font-weight:bold;
+clear:both;
+text-align:center;
+}
